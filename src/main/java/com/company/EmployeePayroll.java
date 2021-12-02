@@ -2,6 +2,7 @@ package com.company;
 
 public class EmployeePayroll {
     public static void main(String[] args) {
-        System.out.println("Welcome to Employee Payroll Management");
+        EmployeeConfig eConfig = new EmployeeConfig();
+        eConfig.getConfig();
     }
 }
