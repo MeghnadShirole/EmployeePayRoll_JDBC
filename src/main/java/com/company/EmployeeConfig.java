@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class EmployeeConfig {
-    public Connection getConfig() {
+    public static Connection getConfig() {
         String dbURL = "jdbc:mysql://localhost:3306/payroll_service";
         String uname = "root";
         String pass = "Meghnad@1827";
